@@ -56,6 +56,9 @@ body {
   list-style: none;
   gap: 2.5rem;
 }
+.nav-toggle {
+   display:none;
+}
 
 .nav-links a {
   text-decoration: none;
@@ -518,6 +521,9 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+  .nav-toggle {
+    display:block;
+  }
   .hero {
     padding: 100px 0 60px;
   }
